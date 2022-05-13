@@ -1,7 +1,7 @@
 site_name: ClusterSecret
 theme:
   name: material
-repo_url: https://github.com/zakkg3/ClusterSecretDocs
+repo_url: https://github.com/zakkg3/ClusterSecret
 site_url: https://cs.flag5.com
 markdown_extensions:
   - attr_list
