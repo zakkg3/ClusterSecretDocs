@@ -1,2 +1,0 @@
-# ClusterSecretDocs
-Cluster secret Docs
