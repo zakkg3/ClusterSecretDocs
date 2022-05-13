@@ -10,7 +10,8 @@ Global inter-namespace cluster secrets - Secrets that work across namespaces  - 
 ClusterSecret operator makes sure all the matching namespaces have the secret available. New namespaces, if they match the pattern, will also have the secret.
 Any change on the ClusterSecret will update all related secrets. Deleting the ClusterSecret deletes "child" secrets (all cloned secrets) too.
 
-![Cluster Secret overview](https://github.com/zakkg3/ClusterSecret/raw/master/docs/clusterSecret.png){ align=left }
+![Cluster Secret overview](https://github.com/zakkg3/ClusterSecret/raw/master/docs/clusterSecret.png)
+
 
 
 ---
