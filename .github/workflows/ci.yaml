@@ -20,4 +20,4 @@ jobs:
           # REQUIREMENTS: folder/requirements.txt
 
       - run: pip install mkdocs-material 
-      - run: mkdocs gh-deploy --force -f clustersecret/mkdocs.yml
+      - run: mkdocs gh-deploy --force
