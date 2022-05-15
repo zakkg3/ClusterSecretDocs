@@ -58,17 +58,28 @@ kubectl get secret <secret-name> -n <source-namespace> -o yaml \
 Clustersecrets automates this. It keep track of any modification in your secret and it will also react to new namespaces. 
 
 
-## installation
+## install
+
+### Clone & kubectl
+
+`git clone git@github.com:zakkg3/ClusterSecret.git`
+
+
+### Helm chart.
+
+Comming soon official helm chart. 
+
 
 ### Requirements
 
-Current version 0.0.7 is tested for Kubernetes >= 1.19 up to 1.25
+Current version 0.0.8 is tested for Kubernetes >= 1.25
 
 For older kubernes (<1.19) use the image tag "0.0.6" in  yaml/02_deployment.yaml
 
 ### tl;dr install
 
 ```bash
+cd ClusterSecret
 kubectl apply -f ./yaml
 ```
 
