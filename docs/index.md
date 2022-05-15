@@ -207,8 +207,8 @@ docker.io/flag5/clustersecret:
 
 ## Roadmap:
 
-Tag 0.0.8:
- - [X] implement `source` to specify a source secret to sync instead of `data` field. (https://github.com/zakkg3/ClusterSecret/issues/3)
+Tag 0.0.9:
+ - [] When using sourcefrom secret, "adopt" that secret so wehen its updated we react and update all synced secrets too.
  
 
  
