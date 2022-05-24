@@ -6,3 +6,7 @@ site_url: https://cs.flag5.com
 markdown_extensions:
   - attr_list
   - md_in_html
+extra:
+  analytics:
+    provider: google
+    property: G-ZYNQ87PV7E
