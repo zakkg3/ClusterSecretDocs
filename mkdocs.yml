@@ -2,6 +2,7 @@ site_name: ClusterSecret
 theme:
   name: material
   logo: assets/csninjasmall.png
+  favicon: assets/csninjaicon.png
 repo_url: https://github.com/zakkg3/ClusterSecret
 site_url: https://cs.flag5.com
 markdown_extensions:
