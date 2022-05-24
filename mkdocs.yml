@@ -1,6 +1,7 @@
 site_name: ClusterSecret
 theme:
   name: material
+  logo: assets/csninjasmall.png
 repo_url: https://github.com/zakkg3/ClusterSecret
 site_url: https://cs.flag5.com
 markdown_extensions:
@@ -10,3 +11,4 @@ extra:
   analytics:
     provider: google
     property: G-ZYNQ87PV7E
+  
