@@ -210,13 +210,12 @@ docker.io/flag5/clustersecret:
 Tag 0.0.9:
  - [] When using sourcefrom secret, "adopt" that secret so wehen its updated we react and update all synced secrets too.
  
+ Tag 0.1
+ - Rewrite in Go!
+ - Unmutable secrets (if changed. go back to what is defined in the source object)
+ - Source from cloud
+ 
 
  
  * * *
  
-# Support
- 
- If you need support, start with the troubleshooting guide: Run it in debug mode.
- You can open issues and we will try to address them. 
-
- That said, if you have questions, or just want to establish contact, reach out one way or another. [https://flag5.com](https://flag5.com) || nico at flag5.com
