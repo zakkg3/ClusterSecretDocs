@@ -8,13 +8,18 @@ site_url: https://clustersecret.io
 edit_uri: https://github.com/zakkg3/ClusterSecretDocs/edit/main/docs/
 nav:
     - ClusterSecret: 'index.md'
+    - 'Install': 'install.md'
+    - 'Quick Start': 'quickstart.md'
+    - 'Value from Secret': 'valuefromsecret.md'
+    - 'Develop & Debug': 'dev.md'
     - 'Join on slack': 'joincommunity.md'
-    - 'support.md'
+    - 'Roadmap': 'roadmap.md'
+    - 'Help & Support': 'support.md'
 markdown_extensions:
   - attr_list
   - md_in_html
 extra:
   analytics:
     provider: google
-    property: G-ZYNQ87PV7E
+    property: G-5XW45WBMDL
   
