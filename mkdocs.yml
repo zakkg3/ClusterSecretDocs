@@ -4,7 +4,7 @@ theme:
   logo: assets/csninjasmall.png
   favicon: assets/csninjaicon.png
 repo_url: https://github.com/zakkg3/ClusterSecret
-site_url: https://cs.flag5.com
+site_url: https://clustersecret.io
 edit_uri: https://github.com/zakkg3/ClusterSecretDocs/edit/main/docs/
 nav:
     - ClusterSecret: 'index.md'
