@@ -12,7 +12,7 @@ jobs:
         with:
           python-version: 3.x
         env:
-          CUSTOM_DOMAIN: https://cs.flag5.com
+          CUSTOM_DOMAIN: https://clustersecret.io
         #   CONFIG_FILE: clustersecret/mkdocs.yml
           # EXTRA_PACKAGES: build-base
           # GITHUB_DOMAIN: https://github.com/zakkg3/zakkg3.github.io/
