@@ -1,31 +1,13 @@
 ## install
 
-### Clone & kubectl
-
-`git clone git@github.com:zakkg3/ClusterSecret.git`
-
-
-### Helm chart.
-
-Comming soon official helm chart. 
-
-
-### Requirements
-
-Current version 0.0.8 is tested for Kubernetes >= 1.25
-
-For older kubernes (<1.19) use the image tag "0.0.6" in  yaml/02_deployment.yaml
-
-### tl;dr install
-
-# Using the official helm chart
+### Using the official helm chart
 
 ```bash
 helm repo add clutersecret https://charts.clustersecret.io/
 helm install cluster-secret clutersecret/cluster-secret --version 0.1.0
 ```
 
-# kubectl
+### kubectl
 
 clone the repo and apply
 
@@ -35,10 +17,15 @@ kubectl apply -f ./yaml
 ```
 
 
- 
+## Requirements
+
+Current version 0.0.8 is tested for Kubernetes >= 1.25
+
+For older kubernes (<1.19) use the image tag "0.0.6" in  yaml/02_deployment.yaml
 
 
-### step by step
+
+## step by step
 
 To instal ClusterSecret operator we need to create (in this order):
 
