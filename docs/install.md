@@ -4,8 +4,10 @@
 
 ```bash
 helm repo add clutersecret https://charts.clustersecret.io/
-helm install cluster-secret clutersecret/cluster-secret --version 0.1.0
+helm install cluster-secret clutersecret/clustersecret --version 0.1.1 -n clustersecret --create-namespace
 ```
+
+
 
 ### kubectl
 
@@ -32,3 +34,8 @@ To instal ClusterSecret operator we need to create (in this order):
  - RBAC resources (avoid if you are not running RBAC) to allow the operator to create/update/patch secrets: yaml/00_
  - Custom resource definition for the ClusterSecret resource: yaml/01_crd.yaml
  - The ClusterSecret operator itself: yaml/02_deployment.yaml || For **ARM architectures**: yaml/arm32v7/02_deployment.yam
+
+
+## Local chart
+
+Clone the repo and `make install`

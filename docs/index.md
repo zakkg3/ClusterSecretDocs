@@ -3,12 +3,13 @@
 
 ---
 
-Kubernetes ClusterSecret 
+Cluster wide secrets
 
-Global inter-namespace cluster secrets - Secrets that work across namespaces  - Clusterwide secrets
+ClusterSecret operator makes sure all the matching namespaces have the secret available and up to date.
 
-ClusterSecret operator makes sure all the matching namespaces have the secret available. New namespaces, if they match the pattern, will also have the secret.
-Any change on the ClusterSecret will update all related secrets. Deleting the ClusterSecret deletes "child" secrets (all cloned secrets) too.
+ - New namespaces, if they match the pattern, will also have the secret.
+ - Any change on the ClusterSecret will update all related secrets. Including changing the match pattern. 
+ - Deleting the ClusterSecret deletes "child" secrets (all cloned secrets) too.
 
 ![Cluster Secret overview](https://github.com/zakkg3/ClusterSecret/raw/master/docs/clusterSecret.png)
 
@@ -77,20 +78,6 @@ This will trigger the operator to also update all secrets that it matches.
 overwrite the deployment command with kopf namespaces instead of the "-A" (all namespaces)
 
 
-### Digests
-
-latest = 0.0.9
-
-docker.io/flag5/clustersecret:
-
-to-do: Automate Digest into doc 
-{{ latestTag }}:{{ latestDiegest }}
-
-0.0.7 digest: sha256:c8dffeefbd3c8c54af67be81cd769e3c18263920729946b75f098065318eddb1
-0.0.7_arm32: digest: sha256:ffac630417bd090c958c9facf50a31ba54e0b18c89ef52d8eec5c1326a5f20ad
-
-
- 
 
  
  * * *
