@@ -15,7 +15,7 @@ Once you have the config in place (kubeconfig) you can just install the requirem
 kopf run ./src/handlers.py --verbose
 ```
 
- Make sure to have the proper RBAC in place (`k apply -f yaml/00_rbac.yaml`) and also the CRD definition (`k apply -f yaml/01_crd.yaml`)
+ Make sure to have the proper RBAC in place (`kubectl apply -f yaml/00_rbac.yaml`) and also the CRD definition (`kubectl apply -f yaml/01_crd.yaml`)
 
 ## Build the images
 
