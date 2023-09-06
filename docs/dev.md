@@ -38,19 +38,13 @@ Find the base one in the folder base-image (yes very original name)
 
 Running just 'make' builds and push for all arch's supported. 
 
-### x86
+### Other platforms.
 
-```
-cd base-images && make all & cd ..
-make all
-```
+there is a separate github action for other platforms. This is because this needs to instal builds-essentials to be able to pip install requirements (it needs to build for some archs.)
+This packages brings the image from ~50 mb to ~200mb.
 
-### ARM. 
+All platforms are being push to the same tags. as Quay supports different platforms like DockerHub. 
 
-```
-cd base-images && make arm & cd ..
-make arm
-```
 
 
 # makefile
