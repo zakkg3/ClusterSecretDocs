@@ -4,7 +4,7 @@
 
 ```bash
 helm repo add clutersecret https://charts.clustersecret.io/
-helm install cluster-secret clutersecret/clustersecret --version 0.1.1 -n clustersecret --create-namespace
+helm install clustersecret clutersecret/clustersecret --version 0.2.1 -n clustersecret --create-namespace
 ```
 
 
