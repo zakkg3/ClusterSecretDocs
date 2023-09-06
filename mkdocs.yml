@@ -10,6 +10,7 @@ nav:
     - ClusterSecret: 'index.md'
     - 'Install': 'install.md'
     - 'Quick Start': 'quickstart.md'
+    - 'Configuration': 'config.md'
     - 'Value from Secret': 'valuefromsecret.md'
     - 'Develop & Debug': 'dev.md'
     - 'Join on slack': 'joincommunity.md'
