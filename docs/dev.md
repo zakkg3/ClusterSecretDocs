@@ -17,9 +17,21 @@ kopf run ./src/handlers.py --verbose
 
  Make sure to have the proper RBAC in place (`kubectl apply -f yaml/00_rbac.yaml`) and also the CRD definition (`kubectl apply -f yaml/01_crd.yaml`)
 
+### Run a dev environment.
+
+It is recommendable to use kind for this porpuse. Also podman is great.
+`make test-env`
+
+when done:
+
+`stop-test-env`
+
+
 ## Build the images
 
-There is makefiles for this, you can clone this repo. edit the makefile and then run 'make all'.
+Images are built by Github actions and pushed to quay on 'git tag'.
+
+To build this locally there is a makefile for this, you can clone this repo. edit the makefile and then run 'make all'.
 
 You will need the base image first and then the final image.
 Find the base one in the folder base-image (yes very original name)
