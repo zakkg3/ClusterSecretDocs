@@ -12,7 +12,7 @@ For development you dont want to build/push/recreate pod every time. Instead we 
 Once you have the config in place (kubeconfig) you can just install the requirementes (pip install /base-image/requirements.txt) and then run the operator from your machine (usefull for debbuging.)
 
 ```bash
-kopf run ./src/handlers.py --verbose
+kopf run ./src/handlers.py --verbose -A
 ```
 
  Make sure to have the proper RBAC in place (`kubectl apply -f yaml/00_rbac.yaml`) and also the CRD definition (`kubectl apply -f yaml/01_crd.yaml`)
