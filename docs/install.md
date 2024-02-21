@@ -3,7 +3,7 @@
 ### Using the official helm chart
 
 ```bash
-helm repo add clutersecret https://charts.clustersecret.io/
+helm repo add clustersecret https://charts.clustersecret.io/
 helm install clustersecret clustersecret/cluster-secret --version 0.2.1 -n clustersecret --create-namespace
 ```
 
